@@ -61,4 +61,3 @@ public class OrderSteps {
         restAssuredThat(response -> response.body("complete", equalTo(complete)));
     }
 }
-
